@@ -1,6 +1,5 @@
-on: 
- pull_request:
-  types: [closed] 
+name: Glitch Sync
+on: [push]
 jobs:
   repo-sync:
     if: github.event.pull_request.merged == true
