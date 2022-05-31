@@ -164,7 +164,7 @@ textField.addEventListener('input', function () {
         data.forEach(function (pathMethod, index) {
             html = `<div class="tab">
                     <input type="checkbox" id="chck${index+1}">
-                    <label class="tab-label" for="chck1"><span class="${pathMethod.method}-tag">${pathMethod.method}</span>${pathMethod.path}</label>
+                    <label class="tab-label" for="chck${index+1}"><span class="${pathMethod.method}-tag">${pathMethod.method}</span>${pathMethod.path}</label>
                     <div class="tab-content">
                     <pre>
                       <code class="java">
