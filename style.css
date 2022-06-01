@@ -5,6 +5,7 @@
 
 html {
   min-height: 100vh;
+  overflow-y: auto !important;
 }
 
 body {
