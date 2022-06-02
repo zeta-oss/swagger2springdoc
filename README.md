@@ -17,7 +17,7 @@ This tool helps create Annotations for [Springdoc](http://springdoc.org)
 
 ## How 💻
 
-1. Simply go to [swagger2springdoc](https://jeweled-plausible-ricotta.glitch.me/)
+1. Simply go to [swagger2springdoc](https://swagger2springdoc.glitch.me/)
 
 2. Paste a Swagger specification like the one [here](https://petstore3.swagger.io/api/v3/openapi.json)
 
